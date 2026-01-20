@@ -115,7 +115,7 @@ Evidence {i}:
     
     def _add_sources(self, report: str, evidence: List[Dict]) -> str:
         """Add sources section to report"""
-        sources_section = "\n\n## References\n\n"
+        sources_section = "\n\n## Evidence Sources\n\n"
         
         for i, item in enumerate(evidence[:10], 1):
             sources_section += f"{i}. [{item['title']}]({item['source']})\n"
