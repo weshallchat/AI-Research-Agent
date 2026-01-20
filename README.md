@@ -96,7 +96,9 @@ echo "OPENAI_API_KEY=your_api_key_here" > .env
 python app.py
 ```
 Then open the URL shown in the terminal (Ex: `https://2ede52a197d64e8c60.gradio.live`).
-Markdown reports can be found in ./AI-Research-Agent/output folder.
+
+
+Markdown reports can be found in `./AI-Research-Agent/output` folder.
 
 **Option 2: Run Tests**
 ```bash
